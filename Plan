@@ -1,0 +1,38 @@
+	Modélisation de la diffusion des langues
+
+
+Les populations évoluent sur une carte en np.zeros.
+
+
+Modèle:
+	dict{tupple(x,y,n):[langue 1....langue n]}
+	
+	(ou Les populations sont définies par:
+	 _Une liste composée de: 
+		_un entier n représentant le nombre d'individu
+		_un dictionnaire avec comme clés les différentes langues(str) et en valeur le pourecntage d'individus parlant la langue en question.
+		_des coordonées représentés par un tupple.                                                                                           )
+   
+Initialisation:
+	Des populations aparaissent aléatoirement sur la carte; chaque population parle une langue unique et a un nombre d'individus aléatoire.
+
+Evolution des populations:
+	Chaque population migre vers une ou plusieurs cases adjacentes ou limitrophes.
+	Il est plus facile de migrer vers une case déjà habitée.
+	
+Evolution des langues :
+	Lorsque plusieurs populations cohabitent sur une meme case, œ.
+
+
+
+
+
+
+
+			Idées:
+
+Evolution dynamique de la population 
+Accéssibilité de la langue et autre facteur possibles 
+
+
+
